@@ -8,7 +8,7 @@ Linear structures can be thought of having two ends: "left" and "right". Linear 
 ## 2 Stacks
 A stack is an ordered collection such that items are added and removed from the "same end", this end is commonly referred to as the "top", the opposite end is referred as the "base". This ordering principle is called **LIFO**, **last-in first-out**. Newer items are at the top and removed first, older items are at the base and removed last.
 
-## 2.1 Python 3 Stack Commands
+### 2.1 Python 3 Stack Commands
 ```python
 Stack() #creates a new stack that is empty. It needs no parameters and returns an empty stack.
 push(item) #adds a new item to the top of the stack. It needs the item and returns nothing.
