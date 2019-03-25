@@ -38,7 +38,7 @@ Unbalanced
 #### 1.1.5 Solution
 Starting with an empty stack, process the parenthesis strings from left to right. If a symbol is an opening parenthesis, push it on the stack as a signal that a corresponding closing symbol needs to appear later. If, on the other hand, a symbol is a closing parenthesis, pop the stack. As long as it is possible to pop the stack to match every closing symbol, the parentheses remain balanced. If at any time there is no opening symbol on the stack to match a closing symbol, the string is not balanced properly. At the end of the string, when all symbols have been processed, the stack should be empty.
 
-Test your own solutions by making sure your python file is name **balancedParentheses.py** and then running the **testBalance.py** file.
+Test your own solutions by making sure your python file is named **balancedParentheses.py** and then running the **testBalance.py** file.
 
 ```python
 python testBalance.py
