@@ -14,7 +14,7 @@ size() #returns the number of items on the stack. It needs no parameters and ret
 ### 1.1.3 Using Stacks
 The exercise is to write an algorithm that will read a string of parentheses from left to right and decide whether they are balanced. They are balanced if and only if each opening bracket has a matching closing bracket in the correct position.
 
-#### 1.1.4 Examples of balanced and unbalanced.
+### 1.1.4 Examples of balanced and unbalanced.
 ```
 Balanced
 
@@ -35,7 +35,7 @@ Unbalanced
 (()()(()
 ```
 
-#### 1.1.5 Solution
+### 1.1.5 Solution
 Starting with an empty stack, process the parenthesis strings from left to right. If a symbol is an opening parenthesis, push it on the stack as a signal that a corresponding closing symbol needs to appear later. If, on the other hand, a symbol is a closing parenthesis, pop the stack. As long as it is possible to pop the stack to match every closing symbol, the parentheses remain balanced. If at any time there is no opening symbol on the stack to match a closing symbol, the string is not balanced properly. At the end of the string, when all symbols have been processed, the stack should be empty.
 
 Check the solution **balancedParentheses.py** in this folder if you are stuck.
